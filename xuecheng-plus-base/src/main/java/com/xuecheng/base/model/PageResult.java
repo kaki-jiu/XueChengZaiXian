@@ -7,10 +7,10 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * @description 分页查询结果模型类
  * @author Mr.M
- * @date 2022/9/6 14:15
  * @version 1.0
+ * @description 分页查询结果模型类
+ * @date 2023/2/11 15:40
  */
 @Data
 @ToString
@@ -34,7 +34,6 @@ public class PageResult<T> implements Serializable {
         this.page = page;
         this.pageSize = pageSize;
     }
-
 
 
 }
